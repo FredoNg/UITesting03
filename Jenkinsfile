@@ -30,6 +30,11 @@ pipeline {
 						}
 					}
 				}
+				stage ('Checkout') {
+					steps {
+						git branch:'master', url: 'https://github.com/FredoNg/UITesting03.git'
+					}
+				}
 				stage('Code Quality Check via SonarQube') {
 					steps {
 						script {
