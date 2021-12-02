@@ -1,27 +1,27 @@
 <?php 
 	session_start();
 	
-	// if(isset($_POST['submit']))
-	// {
-	// 	if((isset($_POST['email']) && $_POST['email'] !='') && (isset($_POST['password']) && $_POST['password'] !=''))
-	// 	{
-	// 		$email = trim($_POST['email']);
-	// 		$password = trim($_POST['password']);
+	if(isset($_POST['submit']))
+	{
+		// if((isset($_POST['email']) && $_POST['email'] !='') && (isset($_POST['password']) && $_POST['password'] !=''))
+		// {
+		// 	$email = trim($_POST['email']);
+		// 	$password = trim($_POST['password']);
 			
-	// 		if($email == "user@example.com")
-	// 		{	
-	// 			if($password == "password1234")
-	// 			{
-	// 				$_SESSION['user_id'] = $email;
+		// 	if($email == "user@example.com")
+		// 	{	
+		// 		if($password == "password1234")
+		// 		{
+		// 			$_SESSION['user_id'] = $email;
 					
-	// 				header('location:dashboard.php');
-	// 				exit;
+		// 			header('location:dashboard.php');
+		// 			exit;
 					
-	// 			}
-	// 		}
-	// 		$errorMsg = "Login failed";
-	// 	}
-	// }
+		// 		}
+		// 	}
+		// 	$errorMsg = "Login failed";
+		// }
+	}
 ?>
 
 <!DOCTYPE html>
